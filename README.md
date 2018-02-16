@@ -21,7 +21,7 @@ Implement class `Sorter` with next methods:
   console.log(sorter.toArray()) // [1, 2]
 ```
 
-`sort` - takes indices of added elements for sorting them. For example:
+`sort` - takes indices of already added elements and sorts *only* these elements. For example:
 ```js
   const sorter = new Sorter();
   sorter.add(2);
@@ -52,7 +52,8 @@ Implement class `Sorter` with next methods:
   console.log(sorter.toArray()); // [3, 2, 1]
 ```
 
-Write your code in `src/index.js`
+Write your code in `src/index.js.
+*Be sure, that all tests are positive. That means you cannot catch any error in tests.*
 
 
 ## Prepare and test
