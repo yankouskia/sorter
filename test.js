@@ -1,4 +1,5 @@
 const assert = require('assert');
+Object.freeze(assert);
 const Sorter = require('./src/index.js');
 
 describe('Sorter', () => {
