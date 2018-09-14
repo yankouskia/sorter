@@ -10,7 +10,22 @@ Implement class `Sorter` with next methods:
 `add` - add element and store it in any way inside
 
 `length` - return the count of current elements, which were added to `Sorter` instance via `add` method
-
+```js
+    const sorter = new Sorter();
+    sorter.add(1);
+    sorter.add(2);
+    
+    console.log(sorter.length) // 2
+```
+`at` - return value at given index in your `Sorter` storage
+```js
+    const sorter = new Sorter();
+    sorter.add(1);
+    sorter.add(2);
+    
+    console.log(sorter.at(0)) // 1
+    console.log(sorter.at(1)) // 2
+```
 `toArray` - return all elements in array. For example:
 ```js
   const sorter = new Sorter();
