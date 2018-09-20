@@ -5,11 +5,10 @@ class Sorter {
 
     get length() {
         return this.arr.length;
-        // your implementation
     }
 
     add(element) {
-
+        this.arr.push(element);
     }
 
     at(index) {
@@ -17,7 +16,7 @@ class Sorter {
     }
 
     toArray() {
-        // your implementation
+        
     }
 
     sort(indices) {
@@ -31,5 +30,8 @@ class Sorter {
 
 
 let sorter = new Sorter();
+console.log(sorter.length);
+sorter.add(5);
+sorter.add(3);
 console.log(sorter.length);
 //module.exports = Sorter;
