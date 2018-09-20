@@ -1,31 +1,35 @@
 class Sorter {
-  constructor() {
-    // your implementation
-  }
+    constructor() {
+        this.arr = new Array();
+    }
 
-  add(element) {
-    // your implementation
-  }
+    get length() {
+        return this.arr.length;
+        // your implementation
+    }
 
-  at(index) {
-    // your implementation
-  }
+    add(element) {
 
-  get length() {
-    // your implementation
-  }
+    }
 
-  toArray() {
-    // your implementation
-  }
+    at(index) {
+        // your implementation
+    }
 
-  sort(indices) {
-    // your implementation
-  }
+    toArray() {
+        // your implementation
+    }
 
-  setComparator(compareFunction) {
-    // your implementation
-  }
+    sort(indices) {
+        // your implementation
+    }
+
+    setComparator(compareFunction) {
+        // your implementation
+    }
 }
 
-module.exports = Sorter;
+
+let sorter = new Sorter();
+console.log(sorter.length);
+//module.exports = Sorter;
